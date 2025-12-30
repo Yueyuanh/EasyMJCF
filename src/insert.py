@@ -162,3 +162,18 @@ class Insert_text:
             print(f"读取文件失败: {e}")
             return -1
 
+    def find_first_line_number(self,name:str):
+        """            
+        返回:
+            行号 (从1开始)，如果没找到返回-1
+        """
+        try:
+            with open(self.file_path, 'r', encoding='utf-8') as f:
+                for line_num, line in enumerate(f, 1):
+                    if name in line and line.strip().startswith(name):
+                        return line_num
+            return -1
+        except Exception as e:
+            print(f"读取文件失败: {e}")
+            return -1
+
