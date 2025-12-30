@@ -71,7 +71,7 @@ mujoco编译选项
 
 > 此过程和完成上一步骤就将urdf拖进mujoco并使用save xml原理一样！
 > 
-> 本
+
 ### 简化STL 
 
 如果编译过程中报面数过多错误就使用```src/scripts/mashlab```中的```simplify_stl.py```进行简化
