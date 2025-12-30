@@ -45,16 +45,3 @@ class MeshSimplify:
 
         print("所有文件处理完成")
 
-# if __name__ == "__main__":
-#     if len(sys.argv) != 4:
-#         print("用法: python simplify_stl.py <输入目录> <输出目录> <压缩率(0.0~1.0)>")
-#         sys.exit(1)
-
-#     input_dir = sys.argv[1]
-#     output_dir = sys.argv[2]
-#     ratio = float(sys.argv[3])
-#     if not (0.0 < ratio <= 1.0):
-#         print("压缩率必须是 0.0 到 1.0 之间的小数（不包含0）")
-#         sys.exit(1)
-
-#     batch_simplify(input_dir, output_dir, ratio)

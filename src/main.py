@@ -122,7 +122,7 @@ if __name__ == "__main__":
     
 
     # 只有在成功编译后才插入场景
-    if output_xml.exists() and "between 1 and 200000" not in debug:
+    if output_xml.exists() and "Output file already exists" not in debug:
         ins_xml = Insert_text(str(output_xml))
         ins_xml.insert_at_line(4, scene_include)
 
