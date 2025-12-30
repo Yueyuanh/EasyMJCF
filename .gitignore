@@ -1,1 +1,6 @@
-__pycache__
+# .gitignore 文件
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class

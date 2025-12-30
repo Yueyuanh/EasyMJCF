@@ -45,7 +45,7 @@ if __name__ == "__main__":
     # 创建URDF替换
     ins_urdf=Insert_text(urdf_path)
     # 插入内容 找到第一个<link 标签
-    ins_urdf.insert_at_line(ins.find_first_link_line_number(), mujoco_compiler)
+    ins_urdf.insert_at_line(ins_urdf.find_first_link_line_number(), mujoco_compiler)
     # 替换内容
     ins_urdf.replace_in_file("package://"+ins_urdf.urdf_name, "..")
 
