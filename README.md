@@ -1,8 +1,10 @@
 # EasyMJCF
+
+![](doc/banner.png)
+
 > 暂时只适用于Linux
 
 > **URDF 一键转换为 MJCF**
-
 
 ## Usage
 
