@@ -162,7 +162,3 @@ class Insert_text:
             print(f"读取文件失败: {e}")
             return -1
 
-
-# if __name__ == "__main__":
-#     ins=Insert_text("/mnt/data/Projects/EasyMjcf/resource/Armor_Robot/urdf/Armor_Robot.urdf.backup")
-#     print(ins.find_first_link_line_number())
