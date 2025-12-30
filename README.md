@@ -16,7 +16,6 @@ cd src
 
 python main.py <URDF文件地址>
 
-
 python main.py ../resource/Wheelleg_2024/urdf/Wheelleg_2024.urdf
 ```
 
@@ -69,6 +68,8 @@ mujoco编译选项
 ```
 
 > 此过程和完成上一步骤就将urdf拖进mujoco并使用save xml原理一样！
+> 
+> 本
 ### 简化STL 
 
 如果编译过程中报面数过多错误就使用```src/scripts/mashlab```中的```simplify_stl.py```进行简化
@@ -126,3 +127,14 @@ scene环境配置
         <freejoint name="floating_base"/>   <!-- 复制这一行，如果需要的话 -->
 
 ```
+
+## Reference
+
+- [mujoco #urdf-extensions](https://docs.mujoco.cn/en/stable/modeling.html#urdf-extensions)
+
+![](doc/mujoco_urdf.jpeg)
+
+- [zhihu 华北舵狗王 ](https://zhuanlan.zhihu.com/p/699075829)
+ 
+- compile 源文件
+  https://mujoco.org/download/mujoco210-linux-x86_64.tar.gz
